@@ -4,10 +4,6 @@
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
-  "extensions": [
-    "astral-sh.uv",
-    "ms-python.python"
-  ],
   "postCreateCommand": "uv pip install fastapi || pip install --no-cache-dir fastapi",
   "remoteUser": "vscode",
   "customizations": {
